@@ -43,13 +43,13 @@ We will provide Azure Data Science Virtual Machines (running Spark 2.0.2) for at
 3. Download the course material from the git repository using the following command
 
     ```bash
-    git clone https://vapaunic.visualstudio.com/_git/mladss2017
+    git clone https://github.com/vapaunic/mlads2017s-mrsdeploy.git
     ```
 
 4. Change the permissions on the custom script file and run the script. Use the following commands.
 
     ```bash
-    cd mladss2017
+    cd mlads2017s-mrsdeploy
     chmod +x DSVM_Customization_Script.sh
     dos2unix ./DSVM_Customization_Script.sh
     
