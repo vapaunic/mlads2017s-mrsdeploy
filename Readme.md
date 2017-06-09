@@ -1,8 +1,4 @@
-# This repository contains content for the MLADS Spring 2017 (June 8-9, 2017) tutorial "Operationalization using Microsoft R Server on single node machines and Spark clusters".
-
-
-## Tutorial slides
-[Operationalization with Microsoft R Server](./docs/MLADS2017_tutorial_slides.pptx)
+# Operationalization using Microsoft R Server on single node machines and Spark clusters
 
 ## Prerequisites
 * Please bring a wireless enabled laptop.
@@ -13,7 +9,6 @@ from [here](http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html). Al
 * Provision a Linux CentOS Data Science VM (DSVM) on Azure Portal [**following these instructions**](./docs/dsvm_provisioning.md).
     * Make sure to provision **Standard DS12_V2** type. 
     * **IMPORTANT**: For the VM user name please use **remoteuser**!
-* NOTE: If you did not specify the VM username as **remoteuser**, most of the tutorial content will not work.
 
 ## Connecting to the Data Science Virtual Machine on Microsoft Azure
 We will provide Azure Data Science Virtual Machines (running Spark 2.0.2) for attendees to use during the tutorial. You will use your laptop to connect to your allocated virtual machine.
@@ -86,5 +81,6 @@ RevoScaleR functions: [https://msdn.microsoft.com/en-us/microsoft-r/scaler/scale
 
 ## Platforms & services for hands-on exercises or demos
 ### Azure Linux DSVM (Data Science Virtual Machine)
-Information on Linux DSVM: https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.linux-data-science-vm
+Information on Linux DSVM: [https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.linux-data-science-vm](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/microsoft-ads.linux-data-science-vm)
+
 The Linux DSVM has Spark (2.0.2) installed, as well as Yarn for job management, as well as HDFS. So, you can use the DSVM to run regular R code as well as code that run on Spark (e.g. using SparkR package). You will use DSVM as a single node Spark machine for hands-on exercises. We will provision these machines and assign them to you at the beginning of the tutorial.

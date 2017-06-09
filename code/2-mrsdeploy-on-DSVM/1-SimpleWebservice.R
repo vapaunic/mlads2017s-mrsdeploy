@@ -81,6 +81,6 @@ api_new <- updateService(
 
 api_new$capabilities()
 
-api_output <- api$addFunction(120, 2, 5)
+api_output <- api_new$addFunction(120, 2, 5)
 
 api_output$outputParameters$result
